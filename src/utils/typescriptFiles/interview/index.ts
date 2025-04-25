@@ -1,0 +1,9 @@
+import { TYPESCRIPT_ADVANCED_DATA } from "./TsAdvancedTab";
+import { TYPESCRIPT_CORE_DATA } from "./TsCoreTab";
+import { TYPESCRIPT_SENIOR_DATA } from "./TsSeniorTab";
+
+export const TYPESCRIPT_DATA_TYPES = [
+  TYPESCRIPT_CORE_DATA,
+  TYPESCRIPT_ADVANCED_DATA,
+  TYPESCRIPT_SENIOR_DATA,
+];
