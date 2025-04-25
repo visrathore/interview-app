@@ -38,7 +38,7 @@ const ContextConceptsPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [value, setValue] = useState(Number(searchParams.get("tabValue")));
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     searchParams.set("tabValue", `${newValue}`);
     setValue(newValue);
     setSearchParams(searchParams);
