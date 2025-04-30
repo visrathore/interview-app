@@ -21,6 +21,8 @@ import HtmlInterviewPage from "../pages/languages/HtmlComponents/HtmlInterviewPa
 import CssInterviewPage from "../pages/languages/CssComponents/CssInterviewPage";
 import DsaCodingPage from "../pages/dsa/DsaComponents/DsaCodingPage";
 import JsCompiler from "../pages/compiler/JsCompiler";
+import NextPage from "../pages/frameworks_libraries/NextPage";
+import NextInterviewPage from "../pages/frameworks_libraries/NextComponents/NextInterviewPage";
 
 const AppRoutes = () => {
   return (
@@ -28,6 +30,7 @@ const AppRoutes = () => {
       <Route path="/" element={<Dashboard />} />
       <Route path="/js-compiler" element={<JsCompiler />} />
       <Route path="/react" element={<ReactPage />} />
+      <Route path="/next" element={<NextPage />} />
       <Route path="/javascript" element={<JavascriptPage />} />
       <Route path="/typescript" element={<TypescriptPage />} />
       <Route path="/redux" element={<ReduxPage />} />
@@ -41,6 +44,9 @@ const AppRoutes = () => {
 
       {/* React */}
       <Route path="/react/react-interview" element={<ReactInterviewPage />} />
+
+      {/* Next */}
+      <Route path="/next/next-interview" element={<NextInterviewPage />} />
 
       {/* Javascript */}
       <Route

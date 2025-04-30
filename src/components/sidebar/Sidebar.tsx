@@ -17,6 +17,7 @@ export default function Sidebar() {
     { text: "Dashboard", path: "/" },
     { text: "JS Compiler", path: "/js-compiler" },
     { text: "React", path: "/react" },
+    { text: "Nextjs", path: "/next" },
     { text: "Javascript", path: "/javascript" },
     { text: "Typescript", path: "/typescript" },
     { text: "Redux", path: "/redux" },

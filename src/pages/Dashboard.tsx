@@ -1,6 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import MuiCard from "../components/UI/MuiCard";
 import ReactImage from "../assets/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg";
+import NextImage from "../assets/nextjs-logo.jpg";
 import JavascriptImage from "../assets/js-image.png";
 import TypescriptImage from "../assets/ts-image.webp";
 import DataStructureImage from "../assets/ds.jpg";
@@ -18,6 +19,12 @@ const TECH_DATA = [
     imageAlt: "React Image",
     imageText: "React",
     redirectUrl: "/react",
+  },
+  {
+    imageUrl: NextImage,
+    imageAlt: "Next Image",
+    imageText: "Next",
+    redirectUrl: "/next",
   },
   {
     imageUrl: JavascriptImage,
